@@ -1,4 +1,5 @@
 require 'pry' 
+<<<<<<< HEAD
 # stuff = ["teetah", "boobah", "heehaw"]
 # array = []
 # stuff.collect do |word|
@@ -18,3 +19,15 @@ def reverse_each_word(string)
   new_array.join(" ")
 end
   
+=======
+
+def reverse_each_word(string)
+  string_array = string.split
+  string_array.each do |word| 
+    word.reverse 
+  end
+  #binding.pry 
+  string_array.join(" ")
+  
+end
+>>>>>>> a0bffb63927ed27c5c82acbdb8118d917c0f7234
